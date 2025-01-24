@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Libs</title>
+    <link rel="stylesheet" href="assign7.css">
+</head>
+<body>
+    <header>
+        <h1 class="nav-title">ASSIGNMENT 7</h1>
+            <div class= "nav-navigators" >
+                <a class= "nav-navigator-item" target="_blank" href="index.html">Home</a>
+                <a class= "nav-navigator-item" target="_blank" href="assign7_madlibs.html">Mad Libs </a>
+                <a class= "nav-navigator-item" target="_blank" href="assign7_tomthumb.html">Tom Thumb</a>
+        </div>
+        
+    </header>
+    <main>
+        <div class="titleHolder">
+        <h1 class="title">Mad Libs Game!</h1>
+        </div>
+        <form id="madLibsForm">
+        <div id="madLibsFormInput">
+
+            <div class="inputItem">
+            <label for="nounName" class="bold">Person Name:</label>
+            <input class="user" type="text" id="nounName" value="Superman">
+            </div>
+            
+            <div class="inputItem">
+            <label for="nounObject" class="bold"> Character :</label>
+            <input class="user" type="text" id="nounObject" value="Batsman">
+            </div>
+            
+            <div class="inputItem">
+            <label for="adjective" class="bold">Adjective:</label>
+            <input class="user" type="text" id="adjective" value="quickly">
+            </div>
+            
+            <div class="inputItem">
+            <label for="adverb" class="bold">Adverb:</label>
+            <input class="user" type="text" id="adverb" value="mean">
+            </div>
+        
+        </div>
+        <div class="buttonHolder">
+            <button type="button" id="generateStoryBtn" class="button-container primary-button">Generate Story</button>
+        </div>
+        </form>
+        
+        <div id="madLibsStory"></div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="assign7.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+:root {
+    --secoundary: #b3b3b4;
+    --secoundary-black: #272727;
+    --primary: #ff3e6c;
+    --gray-text: #535665;
+    --success: green;
+    --warning: #f9a61a;
+    --danger: #f34648;
+    --success-light: rgb(156, 216, 156);
+    --warning-light: #f8e0b7;
+    --danger-light: #f7b2b3;
+}
+
+*{
+    margin:0;
+}
+h2{
+    text-align: center;
+}
+
+input {
+    border: 2px solid white;
+    border-bottom: 2px solid  var(--primary);
+    padding: 5px;
+    margin-bottom: 10px;
+    border-style: double;
+}
+.inputItem{
+  border-width: 20px;
+  text-align: left;
+}
+.bold{
+    color: rgb(15, 231, 231);
+}
+
+#madLibsStory ,#resultMessage{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    border: 2px solid var(--secoundary);
+    padding : 1rem;
+    margin : 1rem;
+    background-color: #f3d188ef;
+    align-items: center;
+    justify-content: center;
+}
+
+#madLibsFormInput, #tomThumbFormInput{
+    /*border: solid var(--secoundary);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding : 1rem;
+    margin : 1rem;
+    /*background-color: #e8b64bef;*/
+}
+label{
+    width: 240px;
+    display: inline-block;
+}
+
+
+.bold{
+font-weight: 400;
+font-style: italic;
+font-size: large;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+.nav-title {
+    text-align: center;
+    color: var(--primary);
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-title a {
+    color: var(--primary);
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.nav-navigators {
+    padding-top: 5 rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    gap: 1rem;
+    
+
+}
+
+.nav-navigator-item {
+    position: relative;
+    box-sizing: border-box;
+    transition: width 2s ease-out;
+    color: whitesmoke;
+}
+.nav-navigator-item1 {
+    position: relative;
+    box-sizing: border-box;
+    transition: width 2s ease-out;
+    color: rgb(178, 61, 228);
+}
+
+.nav-navigator-item:hover {
+    color: var(--primary);
+}
+
+.nav-navigators a ,.pick-container a{
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.nav-container {
+    float:left;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 2rem;
+    box-shadow: 1px 1px 3px var(--secoundary);
+    color: #4e4f53;
+    width: 100%;
+    margin:0;
+    padding:1rem;
+}
+
+.highlight {
+    color: var(--primary);
+}
+
+.button-container {
+    border: 2px solid var(--secoundary-black);
+    border-radius: 0.3rem;
+    width: fit-content;
+    color: black;
+    font-weight: 700;
+    padding: 0.8rem;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.button-container:hover {
+    box-shadow: 1px 1px 3px var(--secoundary);
+}
+
+.primary-button {
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+
+}
+
+.title{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /*color: var(--secoundary-black);*/
+}
+
+.title1{
+    padding-top: 2rem;
+    color: rgba(0, 0, 0, 0.879);
+}
+
+.buttonHolder , .titleHolder ,.resultHolder
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user{
+   border: 2px solid;
+}
+.home-buttons{
+    padding:5rem;
+    box-sizing: 5rem;
+}
+
+.pick-container{
+    display: flex;
+    gap:2rem;
+    margin:5rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#background{
+    background-image: url('enjoy-the-beauty-of-nature-p3d7b02y8ys3msi1.jpg');
+    background-size: cover;
+    background-position: center;
+}

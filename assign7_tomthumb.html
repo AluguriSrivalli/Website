@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Thumb</title>
+    <link rel="stylesheet" href="assign7.css">
+</head>
+<body>
+    <header>
+        <h1 class="nav-title">ASSIGNMENT 7</h1>
+            <div class= "nav-navigators" >
+                <a class= "nav-navigator-item" target="_blank" href="index.html">Home</a>
+                <a class= "nav-navigator-item" target="_blank" href="assign7_madlibs.html">Mad Libs </a>
+                <a class= "nav-navigator-item" target="_blank" href="assign7_tomthumb.html">Tom Thumb</a>
+        </div>     
+    </header>
+    <main>
+        <div class="titleHolder">
+        <h1 class="title">Tom Thumb Game!</h1>
+        </div>
+        <form id="tomThumbForm">
+        <div id="tomThumbFormInput">
+
+            <div class="inputItem">
+                <label for="width" class="bold">Image Width(px):</label>
+                <input class="user" type="number" id="width" value="100">
+            </div>
+            
+            <div class="inputItem">
+                <label for="height" class="bold">Image Height(px):</label>
+                <input class="user" type="number" id="height" value="80">
+            </div>
+            
+            <div class="inputItem">
+                <label for="colors" class="bold">Number of Colors:</label>
+                <input class="user" type="number" id="colors" value="4">
+            </div>
+        
+        </div>
+    </form>
+        <div class="buttonHolder">
+            <button type="button" id="calculateBtn" class="button-container primary-button">Calculate File Size</button>
+        </div>
+
+        <div class="resultHolder">
+            <div id="resultMessage"></div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="assign7_tom.js"></script>
+</body>
+</html>
